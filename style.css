@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: -moz-linear-gradient(3deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%);
+    /* font-family: Arial, sans-serif; */
+}
+.navbar{
+    background-color: transparent;
+    
+}
+.navbar-brand h3{
+    font-size: 3rem;
+    color: rgb(202, 24, 54);
+    margin-right: 10px;
+    font-family: Sankofa Display;
+    font-weight: 1000;
+}
+.navbar-brand:hover{
+    color:black
+}
+.nav-item{
+    margin: 1rem;
+    color: #CDE4D9;
+
+}
+.nav-link{
+    margin-right: 40px;
+    color: #CDE4D9;
+}
+.search{
+    width: 80%;
+    height: 40px;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(202, 24, 54);
+}
+.btn1{
+    width: 60px;
+    height: 40px;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(202, 24, 54);
+    background-color: rgb(202, 24, 54);
+    color: aliceblue;
+    font-family: roboto;
+    font-weight: 200;
+}
+.image-container {
+    position: relative;
+    width: 100%; /* Adjust based on your needs */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px;
+}
+.overlay-text {
+    position: absolute;
+    bottom: 10px; /* Position text at the bottom */
+    left: 10px; /* Position text from the left */
+    color: white; /* Text color */
+    font-size: 20px; /* Text size */
+}
+.destination h1{
+    font-family: bitter;
+    font-size: 50px;
+    font-weight: 700;
+}
+.destination img{
+    border-radius: 5px;
+    border-color: black;
+    box-shadow: 2px 2px 2px black;
+}
+.main{
+    background: url("https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: 50% 50%;
+    height: 100vh;
+    width: 100%;
+   padding: 10px;
+}
+.main h1{
+    font-family: "Rubik";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 85px;
+    color: black;
+    position: relative;
+    top: 95px;
+}
+.btn2{
+    position: relative;
+    top: 203px;
+    left: 449px;
+    width: 35%;
+    height: 45px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    background-color: rgb(202, 24, 54);
+    color: aliceblue;
+    font-family: roboto;
+    font-weight: 700;
+}
+.special h3{
+    font-family: "bitter";
+    font-weight: 900;
+    font-size: calc(1.5rem + 0.6vw);
+    margin-top:  28px;
+}
+.destination h3{
+    font-family: roboto;
+    font-weight: 600px;
+}
+.destination h6{
+    font-weight: 100px;
+    font-size: small;
+}
+.blog img{
+    border-radius: 10%;
+}
+footer ul{
+    /* background-color: azure; */
+    color: white;
+}
+footer h1{
+    font-family: Sankofa Display;
+}
+.ul2{
+    display: flex;
+}
